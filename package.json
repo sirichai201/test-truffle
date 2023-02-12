@@ -1,0 +1,23 @@
+{
+    "name": "simple_ecommerce_contract",
+    "version": "1.0.0",
+    "description": "Simple Ecommerce Worked With Blockchain",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "truffle migrate  --network testnet"
+    },
+    "dependencies": {
+        "@truffle/contract": "^0.5.16",
+        "body-parser": "^1.20.1",
+        "bootstrap": "^4.6.2",
+        "ejs": "^2.7.4",
+        "express": "^4.18.2",
+        "holderjs": "^2.9.9",
+        "http-errors": "^1.8.1",
+        "jquery": "^3.6.3",
+        "multer": "^1.4.4",
+        "toastr": "^2.1.4",
+        "web3": "^1.0.0-beta.34"
+    }
+}
